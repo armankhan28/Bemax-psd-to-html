@@ -11,6 +11,9 @@ ul{
     padding: 0;
     list-style: none;
 }
+.fix{
+    overflow: hidden;
+}
 body{
     font-family: 'Lato', sans-serif;
 }
@@ -105,3 +108,78 @@ body{
     opacity: 1;
     visibility: visible;
 }
+
+/* slider area */
+.slider-area{
+    width: 100%;
+    overflow: hidden;
+}
+.single-slider{
+    text-align: center;
+    width: 100%;
+    padding: 175px 0;
+    background-size: cover;
+}
+.single-slider h4{
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.single-slider h2{
+    color: #fff;
+    font-size: 72px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.single-slider a {
+	background: #4272d7;
+	text-decoration: none;
+	color: #fff;
+	padding: 20px 40px;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+ .owl-nav button i{
+    color: #fff;
+    background: #3d3d3d;
+	height: 40px;
+	width: 40px;
+    text-align: center;
+	line-height: 40px; 
+}
+.owl-nav button {
+	position: absolute;
+	left: 50px;
+	top: 50%;
+	
+    
+}
+.owl-nav button.owl-next{
+	right: 50px;
+	left: auto;
+}
+
+.owl-dots {
+	text-align: center;
+	margin-top: -20px;
+	z-index: 999;
+	position: relative;
+	bottom: 40px;
+}
+.owl-dots button.owl-dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #ccc;
+    margin: 0 3px;
+  }
+.owl-dots button.owl-dot.active {
+    background-color: #4272d7;
+  }
+.owl-dots button.owl-dot:focus {
+    outline: none;
+  }
