@@ -14,6 +14,25 @@ ul{
 .fix{
     overflow: hidden;
 }
+
+.row{
+    margin: 0 -15px;
+}
+
+.col-4{
+    width: 33.33%;
+    float: left;
+    padding: 0 15px;
+}
+.col-8{
+    width: 66.66%;
+    float: left;
+    padding: 0 15px;
+}
+
+
+
+
 body{
     font-family: 'Lato', sans-serif;
 }
@@ -77,6 +96,7 @@ body{
     opacity: 0;
     visibility: hidden;
     transition: .3s;
+    z-index: 999;
 }
 .main-menu ul li:hover ul.submenu{
     opacity: 1;
@@ -123,6 +143,8 @@ body{
 .single-slider h4{
     color: #fff;
     font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 5px;
     text-transform: uppercase;
 }
 .single-slider h2{
@@ -164,8 +186,8 @@ body{
 
 .owl-dots {
 	text-align: center;
-	margin-top: -20px;
-	z-index: 999;
+	margin-top: -24px;
+	z-index: 9;
 	position: relative;
 	bottom: 40px;
 }
@@ -183,3 +205,32 @@ body{
 .owl-dots button.owl-dot:focus {
     outline: none;
   }
+
+  /* cta area */
+
+  .cta-area {
+	padding: 30px 0;
+	background: #4272d7;
+}
+.cta-text{}
+.cta-text p {
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	margin-top: 8px;
+}
+.cta-text p span{
+    font-size: 30px;
+}
+.cta-button {
+    text-align: right;
+}
+.cta-button a {
+	border: 2px solid #fff;
+	padding: 17px 40px;
+	display: inline-block;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+}
