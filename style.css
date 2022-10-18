@@ -29,6 +29,11 @@ ul{
     float: left;
     padding: 0 15px;
 }
+.col-12{
+    width: 100%;
+    float: left;
+    padding: 0 15px;
+}
 
 
 
@@ -283,4 +288,63 @@ body{
 	margin-top: 20px;
 	display: inline-block;
 	text-decoration: none;
+}
+
+/* services-area */
+.services-area{
+    background: #f0f0f0;
+    padding: 70px 0;
+    padding-bottom: 20px;
+}
+.section-title {
+	text-align: center;
+	margin-bottom: 80px;
+    
+}
+.section-title h2{
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.section-title h2::before{
+    background: #adadad;
+    content: "";
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    margin: auto;
+    width: 35%;
+}
+.single-service{
+    display: flex;
+    margin-bottom: 50px;
+}
+.service-icon{}
+.service-icon i {
+	background: #4272d7;
+	height: 50px;
+	width: 50px;
+	font-size: 26px;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+}
+.service-content{
+    padding-left: 15px;
+}
+.service-content h3 {
+	font-weight: 700;
+	color: #555555;
+	margin-bottom: 15px;
+}
+.service-content p{
+    font-size: 15px;
+    color: #666666;
+    line-height: 25PX;
 }
