@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
 
+    // slider-active
 
     $('.slider-active').owlCarousel({
         loop:true,
@@ -18,6 +19,10 @@ $(document).ready(function() {
             }
         }
     })
+
+
+    // project-active
+
     $('.project-active').owlCarousel({
         loop:true,
         nav:true,
@@ -34,4 +39,14 @@ $(document).ready(function() {
             }
         }
     })
+
+
+
+    // video popup
+
+    $('.video-popup').magnificPopup({
+        type: 'iframe'
+        // other options
+      });
+
 })

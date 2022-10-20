@@ -43,6 +43,11 @@ ul{
     float: left;
     padding: 0 15px;
 }
+.col-6{
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+}
 .col-8{
     width: 66.66%;
     float: left;
@@ -415,4 +420,47 @@ body{
 }
 .project-content span{
     color: #cccccc;
+}
+
+
+/* video area */
+
+.video{
+    position: relative;
+}
+
+.video > a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    height: 55px;
+    width: 55px;
+    color: #fff;
+    font-size: 50px;
+}
+.chose-list {
+	margin-bottom: 30px;
+	padding-left: 10px;
+}
+.chose-list{}
+.chose-list p{
+    color: #666;
+    line-height: 23px;
+}
+.chose-title{
+    margin-bottom: 20px;
+}
+.chose-title i{
+    color: #555;
+    font-size: 18px;
+    display: inline-block;
+}
+.chose-title h3{
+    display: inline-block;
+    padding-left: 15px;
+    font-size: 16px;
+    color: #555;
 }
