@@ -11,6 +11,20 @@ ul{
     padding: 0;
     list-style: none;
 }
+.black-bg{
+    background: #222;
+}
+.white-text{
+    color: #fff;
+}
+.pt-70{
+    padding-top: 70px;
+}
+.pb-70{
+    padding-bottom: 70px;
+}
+
+
 .fix{
     overflow: hidden;
 }
@@ -19,6 +33,11 @@ ul{
     margin: 0 -15px;
 }
 
+.col-3{
+    width: 25%;
+    float: left;
+    padding: 0 15px;
+}
 .col-4{
     width: 33.33%;
     float: left;
@@ -40,6 +59,7 @@ ul{
 
 body{
     font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
 }
 /* header */
 .header-area {
@@ -347,4 +367,52 @@ body{
     font-size: 15px;
     color: #666666;
     line-height: 25PX;
+}
+
+/* start project area */
+.project-wrapper{
+    position: relative;
+}
+.project-img{
+    position: relative;
+}
+.project-img::before{
+    background: #507bd6;
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: .3s;
+    opacity: 0;
+}
+.project-wrapper:hover .project-img::before{
+    opacity: 1;
+}
+.project-img > img{
+    width: 100%;
+}
+.project-content {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	right: 0;
+	text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+.project-wrapper:hover .project-content{
+    opacity: 1;
+    visibility: visible;
+}
+.project-content h4 a {
+	color: #fff;
+	font-weight: 700;
+	text-decoration: none;
+	padding-bottom: 20px;
+	display: inline-block;
+}
+.project-content span{
+    color: #cccccc;
 }
