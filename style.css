@@ -428,6 +428,29 @@ body{
 .project-content span{
     color: #cccccc;
 }
+.project-active.owl-carousel  .owl-nav.disabled {
+	display: block;
+}
+.project-active .owl-nav button i{
+    color: #fff;
+    background: #4272d7;
+	height: 40px;
+	width: 40px;
+    text-align: center;
+	line-height: 40px; 
+}
+.project-active .owl-nav button {
+	position: absolute;
+	left: -20px;
+	top: 50%;
+	
+    
+}
+.project-active .owl-nav button.owl-next{
+	right: -20px;
+	left: auto;
+}
+
 
 
 /* video area */
@@ -572,7 +595,7 @@ body{
 }
 .testi-img {
 	margin-top: 30px;
-    width: 25%;
+   
     display: flex;
     
 }
@@ -589,10 +612,67 @@ body{
     color: #555;
     
 }
-
+.testi-active .owl-nav button i{
+    
+    border: 1px solid #999;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    color: #999;
+}
+.testi-active .owl-nav button{
+    position: absolute;
+    top: -60px;
+    left: 220px;
+}
+.testi-active .owl-nav button.owl-next{
+    left: 260px;
+}
+.testi-active.owl-carousel .owl-item img {
+    display: block;
+    width: 10%;
+}
 
 /* brand */
 .brand-active.owl-carousel .owl-item img {
 	display: block;
 	width: inherit;
+}
+
+
+/* footer */
+
+footer{
+    background: #171a21;
+    overflow: hidden;
+}
+.footer-area{
+    padding: 60px 0;
+}
+.footer-widget{}
+.footer-widget img{
+    margin-bottom: 15px;
+}
+.footer-widget p{
+    color: #999999;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+.footer-social a{
+    color: #fff;
+    background: #1b2334;
+    font-size: 15px;
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: .3s;
+}
+.footer-social a:hover{
+    background: #4272d7;
 }
