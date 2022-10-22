@@ -589,3 +589,10 @@ body{
     color: #555;
     
 }
+
+
+/* brand */
+.brand-active.owl-carousel .owl-item img {
+	display: block;
+	width: inherit;
+}
