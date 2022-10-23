@@ -652,6 +652,13 @@ footer{
     padding: 60px 0;
 }
 .footer-widget{}
+.footer-widget h3 {
+	color: #fff;
+	font-size: 15px;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
 .footer-widget img{
     margin-bottom: 15px;
 }
@@ -675,4 +682,51 @@ footer{
 }
 .footer-social a:hover{
     background: #4272d7;
+}
+.footer-link{}
+.footer-link li{
+    margin-bottom: 20px;
+}
+.footer-link li a{
+    color: #cccccc;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.footer-contact li{
+    color: #999999;
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+.footer-widget form{
+    position: relative;
+}
+.footer-widget form input {
+	height: 40px;
+	width: 100%;
+	border: 0;
+	padding: 0 15px;
+	background: #2f3138;
+	color: #fff;
+}
+
+.footer-widget form button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	border: 0;
+	background: #4272d7;
+	color: #fff;
+	font-weight: 700;
+	padding: 0 15px;
+}
+.copyright-area {
+	padding: 30px 0;
+	border-top: 1px solid #23262c;
+}
+.copyright-text {
+	text-align: center;
+	color: #fff;
 }
