@@ -1,5 +1,11 @@
 $(document).ready(function() {
 
+    
+// mean menu
+    $('#mobile-menu-active').meanmenu({
+        meanMenuContainer: '.mobile-menu',
+        meanScreenWidth: "767"
+      });
 
     // slider-active
 
@@ -31,8 +37,8 @@ $(document).ready(function() {
             0:{
                 items:1
             },
-            600:{
-                items:1
+            768:{
+                items:2
             },
             1000:{
                 items:4
@@ -89,10 +95,13 @@ $(document).ready(function() {
             0:{
                 items:1
             },
-            600:{
-                items:1
+            767:{
+                items:3
             },
-            1000:{
+            992:{
+                items:4
+            },
+            1200:{
                 items:6
             }
         }
@@ -107,4 +116,40 @@ $(document).ready(function() {
         // other options
       });
 
+      
+// sticky
+$(window).on('scroll', function () {
+    var scroll = $(window).scrollTop();
+    if (scroll < 5) {
+        $(".header-area").removeClass("sticky");
+    } else {
+        $(".header-area").addClass("sticky");
+    }
+   });
+
+
+
+  
+
+      // scrollToTop
+ $.scrollUp({
+    scrollName: 'scrollUp', // Element ID
+    topDistance: '300', // Distance from top before showing element (px)
+    topSpeed: 300, // Speed back to top (ms)
+    animation: 'fade', // Fade, slide, none
+    animationInSpeed: 200, // Animation in speed (ms)
+    animationOutSpeed: 200, // Animation out speed (ms)
+    scrollText: '<i class="fa-solid fa-arrow-turn-up"></i>', // Text for element
+    activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+
+});
+
+
+
+
+
+
 })
+
+
+
