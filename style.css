@@ -443,7 +443,7 @@ body{
 .project-active .owl-nav button {
 	position: absolute;
 	left: -20px;
-	top: 45%;
+	top: 40%;
 	
     
 }
@@ -641,7 +641,13 @@ body{
 	display: block;
 	width: inherit;
 }
-
+.single-brand {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
 
 /* footer */
 
