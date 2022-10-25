@@ -739,7 +739,7 @@ footer{
 	right: 0;
 	background: #fff;
     z-index: 2;
-    border-bottom: 5px solid #4272d7;
+    box-shadow: 0px 1px 10px #999;
 }
 
 /* scrollup */

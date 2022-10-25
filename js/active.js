@@ -1,11 +1,11 @@
 $(document).ready(function() {
 
     
-// mean menu
-    $('#mobile-menu-active').meanmenu({
-        meanMenuContainer: '.mobile-menu',
-        meanScreenWidth: "767"
-      });
+// menu
+$('#menu-active').meanmenu({
+    meanMenuContainer: '.mobile-menu',
+    meanScreenWidth: "767"
+});
 
     // slider-active
 
